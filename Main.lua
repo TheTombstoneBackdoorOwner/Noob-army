@@ -106,8 +106,7 @@ G2L["UIAspectRatioConstraint_c"]["AspectRatio"] = 1.7931;
 
 local function C_7()
 	local script = G2L["LocalScript_7"];
-	local tab_script = G2L["Scripttab_8"]
-  local button = G2L["Exe tab_a"]
+    local button = G2L["Info_6"]
 
 button.MouseButton1Click:Connect(function()
     local status = G2L["Status_4"]
