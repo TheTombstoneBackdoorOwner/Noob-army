@@ -24,7 +24,8 @@ G2L["Frame_2"]["BackgroundColor3"] = Color3.fromRGB(147, 147, 147);
 G2L["Frame_2"]["Size"] = UDim2.new(0.40625, 0, 0.39084, 0);
 G2L["Frame_2"]["Position"] = UDim2.new(0.22031, 0, 0.14286, 0);
 G2L["Frame_2"]["BackgroundTransparency"] = 0.25;
-
+G2L["Frame_2"]["Active"] = true
+G2L["Frame_2"]["Draggable"] = true
 
 G2L["UICorner_3"] = Instance.new("UICorner", G2L["Frame_2"]);
 G2L["UICorner_3"]["CornerRadius"] = UDim.new(0, 15);
@@ -105,11 +106,6 @@ G2L["UIAspectRatioConstraint_c"]["AspectRatio"] = 1.7931;
 
 local function C_7()
 	local script = G2L["LocalScript_7"];
-	
-end;
-task.spawn(C_7);
-local function C_b()
-	local script = G2L["LocalScript_b"];
 	local tab_script = G2L["Scripttab_8"]
   local button = G2L["Exe tab_a"]
 
@@ -121,6 +117,11 @@ button.MouseButton1Click:Connect(function()
         status.TextColor3 = Color3.fromRGB(0, 255, 0);
     end
 end)
+end;
+task.spawn(C_7);
+local function C_b()
+	local script = G2L["LocalScript_b"];
+	
 end;
 task.spawn(C_b);
 
